@@ -7,7 +7,7 @@ yin = yin()
 yang = yang()
 yin.yang = yang
 
-print(yang)
 print("?")
+print(yang)
 print(yang is yin.yang)
 del(yang)
