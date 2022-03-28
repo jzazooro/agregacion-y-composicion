@@ -8,6 +8,6 @@ yang = yang()
 yin.yang = yang
 
 print(yang)
-print(yang is yin.yang)
 print("?")
+print(yang is yin.yang)
 del(yang)
