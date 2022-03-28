@@ -8,3 +8,5 @@ class newyork:
 class edificio: 
     def __del__(self):
         print("destruccion{}".format(self.name))
+    def __init__(self, name):
+        self.name=name
