@@ -27,4 +27,5 @@ class empleado:
 
 El UML correspondiente a este ejercicio es el siguiente:
 
-![ejercicio a]()
+(![UMLa drawio](https://user-images.githubusercontent.com/91785177/160494523-840459f9-e19b-4897-95ed-8a2be3127458.png)
+
