@@ -6,5 +6,5 @@ class newyork:
         self.empleado = [empleado(name) for name in ["salim", "snr Martin", "sra. Xing"]]
 
 class edificio: 
-    def __del_(self):
+    def __del__(self):
         print("destruccion{}".format(self.name))
