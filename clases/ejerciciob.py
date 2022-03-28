@@ -5,9 +5,9 @@ class yang:
 
 yin = yin()
 yang = yang()
+print("?")
 yin.yang = yang
 
-print("?")
 print(yang)
 print(yang is yin.yang)
 del(yang)
