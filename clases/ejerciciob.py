@@ -9,5 +9,5 @@ yin.yang = yang
 
 print(yang)
 print(yang is yin.yang)
-del(yang)
 print("?")
+del(yang)
