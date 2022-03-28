@@ -10,3 +10,6 @@ class edificio:
         print("destruccion{}".format(self.name))
     def __init__(self, name):
         self.name=name
+class empleado:
+    def __del__(self):
+        print("destruccion{}".format(self.name))
