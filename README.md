@@ -43,3 +43,13 @@ class yang:
 El UML correspondiente a este ejercicio es el siguiente:
 
 ![UMLb drawio](https://user-images.githubusercontent.com/91785177/160494790-467b83ab-3eab-4a32-8c4e-a7a5ef68241a.png)
+
+### Ejercicio 3: Alternativa a la herencia multiple
+
+```
+
+```
+
+
+El UML correspondiente a este ejercicio es el siguiente:
+
