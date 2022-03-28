@@ -4,8 +4,8 @@ class yang:
         print("yang destruido")
 
 yin = yin()
-yang = yang()
 print("?")
+yang = yang()
 yin.yang = yang
 
 print(yang)
