@@ -31,6 +31,10 @@ El UML correspondiente a este ejercicio es el siguiente:
 
 ### Ejercicio 2: ¿Inmortal?
 
+La funcion del se encarga de eliminar la clase yang, pero esto re realiza siempre cuando noa hay mas referencias a esta funcion.
+Por lo tanto como hay referencias hasta el final del codigo, se destruirá al final. Al poner el print(?) dentro de la funcion del, se
+ejecutará despues de la funcion del (que es nuestro objetico)
+
 ```
 class yin: pass
 class yang: 
