@@ -10,8 +10,10 @@ class ventana(pared):
 
 class casa(ventana):
     def __init__(self, paredes, horientacion, superficie):
+        super().__init__(horientacion, superficie)
         self.paredes=paredes
-    def superficieacristalada(self):
+    def superficieacristalada(self, acristalado):
+        self.acristalado=acristalado
         return(self.paredes.superficie)
 
 pared_norte = pared("NORTE") 
