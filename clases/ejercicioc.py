@@ -16,6 +16,11 @@ class casa(ventana):
         self.acristalado=acristalado
         return(self.paredes.superficie)
 
+class cortina:
+    def __init__(self, horientacion, superficie):
+        pared.__init__(self, horientacion, superficie)
+        ventana.__init__(self, superficie, "ninguna")
+
 pared_norte = pared("NORTE") 
 pared_oeste = pared("OESTE")
 pared_sur = pared("SUR") 
