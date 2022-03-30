@@ -25,6 +25,18 @@ def main():
                 del(yang)
 
             if cual=="c" or cual=="C":
+                pared_norte = pared("NORTE") 
+                pared_oeste = pared("OESTE")
+                pared_sur = pared("SUR") 
+                pared_este = pared("ESTE")
+                ventana_norte = ventana(pared_norte, 0.5) 
+                ventana_oeste = ventana(pared_oeste, 1) 
+                ventana_sur = ventana(pared_sur, 2) 
+                ventana_este = ventana(pared_este, 1)
+                
+                casa = casa([pared_norte, pared_oeste, pared_sur, pared_este]) 
+                
+                print(casa.superficieacristalada())
 
             else:
                 print("no ha escogido ningun ejercicio: ")
