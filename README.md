@@ -78,3 +78,4 @@ class cortina:
 
 El UML correspondiente a este ejercicio es el siguiente:
 
+![UMLc drawio](https://user-images.githubusercontent.com/91785177/160916204-779c8b5a-5a32-46a2-8c38-58b095f06d04.png)
